@@ -47,7 +47,7 @@ This option specifies the queue number associated with the document.
 This parameter is optional. If the occurance number of the report is not 1, you can specify which occurance you desire. (The default occurance is 1.)
 
 ### -r
-This option speicifies the report name to select.
+This option specifies the report name to select.
 
 ### -s
 This option suppressses the 'd' prefix in the document name
@@ -55,7 +55,7 @@ This option suppressses the 'd' prefix in the document name
 :::tip Example
 In this example, we would retrieve the desired document number for Share Draft Notices,
 ```
-[[SMAXPSetup]]  SMAFetchQueuedDocNumber.pl -d [[$SCHEDULE DATE MM-DD]] -f SDNTC -p DOC_SDNOTICE -q \$NOTICES -r \"SHARE DRAFT NOTICES\"
+[[SMAXPSetup]]  SMAFetchQueuedDocNumber.pl -d [[$SCHEDULE DATE MM-DD]] -f SDNTC -p DOC_SDNOTICE -q \$NOTICES -r SHARE DRAFT NOTICES
 ```
 
 If the responce to a queue query was:
